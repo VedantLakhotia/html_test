@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      @keyframes myAnimation {
+        0%{background-color:pink;left:0px;top:0px;border-radius:50%;backdrop-filter:blur(2px);box-shadow:0 0 20px pink;transform:rotate(0deg);}
+        25%{background-color:rebeccapurple;left:500px;top:0px;border-radius:20%;backdrop-filter:blur(4px);box-shadow:0 0px 20px rebeccapurple;}
+        50%{background-color:red;left:500px;top:500px;border-radius:30%;backdrop-filter:blur(6px);box-shadow:0px 0px 20px red;}
+        75%{background-color:maroon;left:0px;top:500px;border-radius:40%;backdrop-filter:blur(8px);box-shadow:0px 0px 20px  maroon;}
+        100%{background-color:pink;left:0px;top:0px;border-radius:50%;backdrop-filter:blur(10px);box-shadow:0px 0px 20px pink;transform:rotate(360deg);}
+      }
+      @keyframes myAnimation1 {
+        0%{background-color:pink;left:70%;top:0px;border-radius:50%;box-shadow:0 0 20px pink;transform:rotate(0deg);}
+        25%{background-color:rebeccapurple;left:40%;top:0px;border-radius:20%;box-shadow: 0 0 20px rebeccapurple;}
+        50%{background-color:red;left:40%;top:500px;border-radius:30%;box-shadow: 0 0 20px red;}
+        75%{background-color:maroon;left:70%;top:500px;border-radius:40%;box-shadow: 0 0 20px maroon;}
+        100%{background-color:pink;left:70%;top:0px;border-radius:50%;box-shadow: 0 0 20px pink;transform:rotate(360deg);}
+      }
+      .a{
+        width:200px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        height:200px;
+        font-size:30px;
+        animation-name:myAnimation;
+        animation-timing-function: ease-in-out;
+        font-weight:bold;
+        animation-duration:5s;
+        animation-iteration-count:infinite;
+        background-color:red;
+        position:relative;
+        color:azure;
+        border-radius:10%;
+        border:none;
+      }
+      .b{
+        width:200px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        height:200px;
+        font-size:30px;
+        animation-name:myAnimation1;
+        animation-timing-function: ease;
+        font-weight:bold;
+        animation-duration:5s;
+        animation-iteration-count:infinite; 
+        background-color:red;
+        position:relative;
+        color:azure;
+        border-radius:10%;
+        border:none;
+      }
+  
+      
+
+    </style>
+
+  </head>
+  <body>
+    <button class="a">
+      Vedant
+    </button>
+    <button class="b">
+      Lakhotia
+    </button>
+    <audio src="Powerhouse-320kbps.mp3" controls loop autoplay hidden></audio>
+  </body>
+</html>
